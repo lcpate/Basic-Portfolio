@@ -11,5 +11,35 @@
 
 	<br><br><br>
 
-	<h2> Contact </h2>
-		<hr>
+	<div class="container">
+		<form action="/action_page.php">
+		<!-- Contact form -->
+			<h2> Contact </h2>
+				<hr> 
+			<!-- Name field on form -->
+			<label for="name"> Name</label>
+			<br>
+			<input type="text" 
+				id="name" 
+				name="fullname" 
+				placeholder="John Smith">
+			<!-- Email field on form -->
+			<br><br>
+			<label for="email">Email</label>
+			<br>
+			<input type="text" 
+				id="email" 
+				name="emailaddress" 
+				placeholder="example@gmail.com">
+			<!-- Message field on form -->
+			<br><br>
+			<label for="message">Message</label>
+			<br>
+			<textarea id="message" 
+				name="message"
+				placeholder="" 
+				style="height:200px; width: 200px"></textarea> 
+		</form>
+	</div>
+</body>
+</html>
