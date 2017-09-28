@@ -52,6 +52,7 @@
 		margin-left: 700px;
 		padding-top: 30px;
 		font-family: 'Georgia', Times, Times New Roman, serif;
+		color: grey;
 		
 	}
 
@@ -88,7 +89,8 @@
 	overflow: auto;
 	margin-left: 200px;
 	padding:15px;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: grey;
 
 
 }
@@ -150,12 +152,14 @@
 		width: 300px;
 		height:20px;
 		margin-left: 30px;
+	
 		}
 	
 	#email{
 		width: 300px;
 		height:20px;
 		margin-left: 30px;
+
 	}
 
 	#message{
@@ -192,21 +196,28 @@
 	position: absolute;
 	}
 
-	#hangman{
+	.hangmanpic{
 		width: 10%;
 		height: 10%;
-		padding:5px;
-		margin-left: 50px;
+		/*padding:5px;
+		margin-left: 50px;*/
 		border:5px;
 		background:#4aaaa5;
-	
-	}
-	
-	#hangman, #rpg, #trivia, #widget, #rock{
-		margin-left: 50px;
-		
 
+	
 	}
+	
+	/*.hangmanpic, .triviapic, .rockpic{
+		
+		float:left;
+		position: relative;
+	
+	}
+
+	.rpg, .widgetpic{
+		float: right;
+		position: relative;
+	}*/
 
 	#portfoliotext{
 		margin-left: 30px;
